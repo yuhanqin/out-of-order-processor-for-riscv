@@ -1,0 +1,127 @@
+$date
+	Thu Dec 02 15:44:11 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_RAT $end
+$var wire 6 ! rdataRATsr2 [5:0] $end
+$var wire 6 " rdataRATsr1 [5:0] $end
+$var wire 6 # rdataRATdest [5:0] $end
+$var reg 1 $ clk $end
+$var reg 5 % raddrRATdest [4:0] $end
+$var reg 5 & raddrRATsr1 [4:0] $end
+$var reg 5 ' raddrRATsr2 [4:0] $end
+$var reg 1 ( reset $end
+$var reg 5 ) waddrRATdest [4:0] $end
+$var reg 6 * wdataRATdest [5:0] $end
+$var reg 1 + wenRATdest $end
+$scope module RAT $end
+$var wire 1 $ clk $end
+$var wire 5 , raddrRATdest [4:0] $end
+$var wire 5 - raddrRATsr1 [4:0] $end
+$var wire 5 . raddrRATsr2 [4:0] $end
+$var wire 6 / rdataRATdest [5:0] $end
+$var wire 6 0 rdataRATsr1 [5:0] $end
+$var wire 6 1 rdataRATsr2 [5:0] $end
+$var wire 1 ( reset $end
+$var wire 5 2 waddrRATdest [4:0] $end
+$var wire 6 3 wdataRATdest [5:0] $end
+$var wire 1 + wenRATdest $end
+$var integer 32 4 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+x+
+bx *
+bx )
+0(
+bx '
+bx &
+bx %
+0$
+bx #
+bx "
+bx !
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+0$
+1(
+#25000
+b100000 4
+1$
+#30000
+0$
+#35000
+b100000 4
+1$
+#40000
+0$
+0(
+#45000
+1$
+b11111 #
+b11111 /
+b11111 %
+b11111 ,
+b10000 !
+b10000 1
+b10000 '
+b10000 .
+b0 "
+b0 0
+b0 &
+b0 -
+#50000
+0$
+#55000
+b10101 !
+b10101 1
+1$
+b10101 *
+b10101 3
+b10000 )
+b10000 2
+1+
+b10101 #
+b10101 /
+b10000 %
+b10000 ,
+#60000
+0$
+#65000
+1$
+#70000
+0$
+#75000
+1$
+#80000
+0$
+#85000
+1$
+#90000
+0$
+#95000
+1$
+#100000
+0$
